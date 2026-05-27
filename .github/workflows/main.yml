@@ -1,0 +1,9 @@
+name: Test Pipeline
+on: push
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+  steps:
+    - run: echo "Hello! pipeline is done"
+    - run: date
